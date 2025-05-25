@@ -1,0 +1,39 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 10;
+    background-color: #ffffff;
+}
+
+/* Selectores */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Bordes, márgenes y rellenos */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #d4c7c7;
+    background-color: #d8dbdf;
+}
+
+/* Hacks CSS */
+nav ul li:hover {
+    transform: scale(1.1);
+}
