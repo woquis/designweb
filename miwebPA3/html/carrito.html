@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Mi woquis web.">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="woquis">
+        <title>Mi Pagina Web - Carrito</title>
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="/miwebPA3/css/styles.css">
+</head>
+<body>
+
+<nav class="navbar">
+        <ul>
+            <li><a href="/miwebPA3/index.html">Inicio</a></li>
+            <li><a href="/miwebPA3/html/formulario.html">Contacto</a></li>
+            <li><a href="/miwebPA3/html/carrito.html">Carrito</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Comprar en Linea</h1>
+        <nav>
+            <button id="verCarrito">🛒 Ver/ocultar Carrito 🛒(<span id="contadorCarrito">0</span>)</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="productos" id="productos"></section>
+    <p></p>
+        <section class="carrito" id="carrito" style="display: none;">
+            <h2>Carrito de Compras</h2>
+            <ul id="listaCarrito"></ul>
+            <p><strong>Total: S/<span id="totalCarrito">0</span></strong></p>
+            <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+        </section>
+    </main>
+<footer>
+        <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
+</footer>
+
+    <script src="/miwebPA3/js/script.js"></script>
+</body>
+</html>

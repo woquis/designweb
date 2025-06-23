@@ -1,0 +1,135 @@
+/* Estilo global */
+body {
+    background-image: url("/miwebPA3/img/fondo.png");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 10; 
+}
+
+/* Selectores */
+h1 {
+    
+    text-align: center;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+/*estilos para navegacion*/
+.navbar {
+    padding: 1px 0;
+    text-align: center;
+
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+.navbar a {
+    text-decoration:springgreen;
+    color: white;
+    font-size: 13px;
+    padding: 8px 12px;
+    
+}
+
+.navbar a:hover {
+    background: #3a11f0;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+.navbar a.active {
+    background: #42e795; /* Color de fondo destacado */
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/*estilo para formulario*/
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+/*estilo para las etiquetas**//*estilo para formulario*/
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/*estilos para los campos de entrada*//*estilo para formulario*/
+input 
+textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 200px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+/*estilo de encabezado*/
+header {
+    background-image: url(/miwebPA3/img/poncho.jpeg) ;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    
+}
+/*estilos contenedor */
+main {
+    padding: 2rem;
+    max-width: auto;
+    margin: auto;
+}
+/*estilos de los productos ofertados*/
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.producto {
+    background-color:azure ;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.producto button {
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    background-color: #0a3552;
+    color: azure;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/*estilos de carrito de compras*/
+.carrito {
+    background-color: rgb(32, 69, 139);
+    color:azure;
+    padding: 1rem;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 0.5rem 0;
+}
